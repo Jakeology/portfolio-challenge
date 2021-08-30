@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --lightblue: rgb(35, 54, 78);
+  --darkblue: rgb(27, 44, 66);
+}
+
+header {
+  padding: 20px 35px;
+  background-color: var(--lightblue);
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  align-items: center;
+  display: flex;
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-size: 28px;
+  font-weight: lighter;
+  display: flex;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
