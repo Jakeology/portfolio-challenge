@@ -92,12 +92,12 @@ footer h4 {
   padding-bottom: 15px;
   text-align: center;
   width: 40%;
-  margin: 0 auto 35px auto;
+  margin: 25px auto 35px auto;
   border-bottom: 3px solid;
 }
 
 .about-me-primary {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   padding-bottom: 35px;
   display: flex;
@@ -111,11 +111,22 @@ footer h4 {
 }
 
 .about-me img {
-  width: 20%;
+  width: 25%;
+  border-radius: 50%;
+  border: solid 2px var(--darkblue);
+}
+
+.about-me-bio h3 {
+  font-size: 28px;
+}
+
+.about-me-bio p {
+  font-size: 17px;
 }
 
 .about-me-bio {
   float: left;
-  width: 80%;
-  padding: 25px;
+  width: 75%;
+  padding: 20px;
+  line-height: 1.3;
 }
