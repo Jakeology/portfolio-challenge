@@ -6,11 +6,15 @@
 :root {
   --lightblue: rgb(35, 54, 78);
   --darkblue: rgb(27, 44, 66);
+  --white: white;
 }
 
 header {
   padding: 20px 35px;
   background-color: var(--lightblue);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 header nav {
@@ -20,16 +24,37 @@ header nav {
 header nav ul {
   align-items: center;
   display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-between;
 }
 
 header nav ul li a {
   padding: 10px 15px;
-  font-size: 28px;
   font-weight: lighter;
-  display: flex;
+  font-size: 1.55vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: var(--white);
 }
 
 header a {
   text-decoration: none;
-  color: white;
+  color: var(--white);
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+footer {
+    background-color: var(--lightblue);
+    padding: 35px;
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer h4 {
+    font-size: 28px;
 }
