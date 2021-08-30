@@ -64,6 +64,10 @@ footer h4 {
   font-size: 18px;
 }
 
+.flex-row {
+  display: flex;
+}
+
 .hero {
   background-image: url("../images/banner.png");
   background-size: cover;
