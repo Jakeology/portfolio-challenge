@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 :root {
@@ -10,8 +11,12 @@
 }
 
 header {
+  background-image: url("../images/banner.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
   padding: 20px 35px;
-  background-color: var(--lightblue);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -43,18 +48,31 @@ header a {
 }
 
 header h1 {
-    font-size: 36px;
+  font-size: 36px;
 }
 
 footer {
-    background-color: var(--lightblue);
-    padding: 35px;
-    color: var(--white);
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  background-color: var(--lightblue);
+  padding: 35px;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 footer h4 {
-    font-size: 28px;
+  font-size: 18px;
+}
+
+.hero {
+  background-image: url("../images/banner.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: flex-start;
+  height: 500px;
 }
