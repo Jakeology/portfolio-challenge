@@ -95,3 +95,27 @@ footer h4 {
   margin: 0 auto 35px auto;
   border-bottom: 3px solid;
 }
+
+.about-me-primary {
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 35px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.about-me {
+  margin: 25px;
+  flex: 1;
+}
+
+.about-me img {
+  width: 20%;
+}
+
+.about-me-bio {
+  float: left;
+  width: 80%;
+  padding: 25px;
+}
