@@ -168,25 +168,31 @@ footer h4 {
 
 .main-card {
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 0 auto;
 }
 
 .main-card-bio {
   width: 70em;
-  border-radius: 10px;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
   color: var(--white);
-  margin: 10px;
   background-color: var(--lightblue);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
 }
 
-.secondary-cards {
-  width: 50%;
+.main-card-bio p {
+  width: 100%;
+  margin: 2px;
+}
+
+.secondary-cards {  
+  width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   justify-content: center;
   margin: 0 auto;
 }
@@ -198,7 +204,8 @@ footer h4 {
   color: var(--white);
   margin: 10px;
   background-color: var(--lightblue);
-}
+  padding-bottom: 5px;
+} 
 
 /* Contact Me Section */
 .contact-me{
@@ -220,5 +227,33 @@ footer h4 {
 .contact-me-btn h4 {
   text-align: center;
   font-size: 36px;
+}
+
+/* Media query to resize contents at 1440px */
+@media screen and (max-width: 1440px) {
+  .main-card-bio {
+    width: 78%;
+  }
+
+  .secondary-cards {
+    width: 80%;
+  }
+}
+
+/* Media query to resize contents at 709px */
+@media screen and (max-width: 709px) {
+
+  .main-card img {
+    content: url(../images/run-buddy.png);
+  }
+
+  .main-card-bio {
+    width: 16.5em;
+  }
+
+  .secondary-cards {
+    width: 80%;
+  }
+
 }
 
