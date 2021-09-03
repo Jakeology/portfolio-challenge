@@ -332,3 +332,18 @@ footer h4 {
     font-size: 14px;
   }
 }
+
+/* Media query to resize contents at 360px */
+@media screen and (max-width: 360px) {
+  .contact-me-btn h4 {
+    font-size: 22px;
+  }
+
+  .primary-section-title {
+    font-size: 36px;
+  }
+
+  .secondary-section-title {
+    font-size: 36px;
+  }
+}
