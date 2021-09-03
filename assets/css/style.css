@@ -100,7 +100,7 @@ footer h4 {
   color: var(--darkblue);
   padding-bottom: 15px;
   text-align: center;
-  width: 40%;
+  width: 22em;
   margin: 25px auto 35px auto;
   border-bottom: 3px solid;
 }
@@ -111,7 +111,7 @@ footer h4 {
   color: var(--white);
   padding-bottom: 15px;
   text-align: center;
-  width: 40%;
+  width: 22em;
   margin: 25px auto 35px auto;
   border-bottom: 3px solid;
   margin-bottom: 1.25em;
@@ -119,7 +119,7 @@ footer h4 {
 
 /* About me section */
 .about-me-primary {
-  width: 60%;
+  width: 70em;
   margin: 0 auto;
   padding-bottom: 35px;
   display: flex;
@@ -133,13 +133,18 @@ footer h4 {
 }
 
 .about-me img {
-  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  width: 15em;
   border-radius: 50%;
   border: solid 2px var(--darkblue);
 }
 
 .about-me-bio h3 {
   font-size: 28px;
+  margin: 20px;
 }
 
 .about-me-bio p {
@@ -147,10 +152,8 @@ footer h4 {
 }
 
 .about-me-bio {
-  float: left;
-  padding-right: 15px;
-  width: 75%;
-  line-height: 1.3;
+  width: 100%;
+  text-align: center;
 }
 
 /* Portfolio Section */
@@ -232,16 +235,17 @@ footer h4 {
 
 /* Media query to resize contents at 1440px */
 @media screen and (max-width: 1440px) {
-  .main-card-bio {
-    width: 78%;
-  }
-
-  .secondary-cards {
-    width: 80%;
-  }
 
   header nav ul li a {
     font-size: 22px;
+  }
+
+  .main-card-bio {
+    width: 77%;
+  }
+
+  .secondary-cards {
+    width: 74%;
   }
   
 }
@@ -252,7 +256,6 @@ footer h4 {
   header {
     padding-bottom: 0;
     justify-content: center;
-    position: relative;
   }
 
   header h1 {
@@ -270,10 +273,15 @@ footer h4 {
     font-size: 20px;
   }
 
+  .secondary-cards {
+    width: 80%;
+  }
+
 }
 
 /* Media query to resize contents at 709px */
 @media screen and (max-width: 709px) {
+
   .main-card img {
     content: url(../images/run-buddy.png);
   }
@@ -282,7 +290,17 @@ footer h4 {
     width: 16.5em;
   }
 
-  .secondary-cards {
-    width: 80%;
+}
+
+/* Media query to resize contents at 575px */
+@media screen and (max-width: 575px) {
+
+  .contact-me-btn h4 {
+    font-size: 24px;
   }
+
+  footer h4 {
+    font-size: 14px;
+  }
+
 }
