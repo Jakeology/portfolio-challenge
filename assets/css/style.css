@@ -189,7 +189,7 @@ footer h4 {
   margin: 2px;
 }
 
-.secondary-cards {  
+.secondary-cards {
   width: 100%;
   display: flex;
   flex-flow: row wrap;
@@ -205,21 +205,22 @@ footer h4 {
   margin: 10px;
   background-color: var(--lightblue);
   padding-bottom: 5px;
-} 
+}
 
 /* Contact Me Section */
-.contact-me{
-  width: 40%;
+.contact-me {
+  width: 100%;
   display: flex;
+  flex-wrap: wrap;
   margin: 0 auto;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .contact-me-btn {
   padding: 15px;
   margin: 1em;
   border-radius: 10px;
-  margin-bottom: 100px;
   background-color: var(--lightblue);
   color: var(--white);
 }
@@ -238,11 +239,41 @@ footer h4 {
   .secondary-cards {
     width: 80%;
   }
+
+  header nav ul li a {
+    font-size: 22px;
+  }
+  
+}
+
+/* Media query to resize contents at 980px */
+@media screen and (max-width: 980px) {
+
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
 }
 
 /* Media query to resize contents at 709px */
 @media screen and (max-width: 709px) {
-
   .main-card img {
     content: url(../images/run-buddy.png);
   }
@@ -254,6 +285,4 @@ footer h4 {
   .secondary-cards {
     width: 80%;
   }
-
 }
-
