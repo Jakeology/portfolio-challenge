@@ -34,6 +34,7 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  z-index: 9999;
 }
 
 header nav {
@@ -174,7 +175,12 @@ footer h4 {
 .portfolio-card img {
   border-radius: 10px;
   width: 100%;
-  /* opacity: 0.7; */
+  opacity: 0.9;
+}
+
+.portfolio-card img:hover{
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  opacity: 1;
 }
 
 .main-card {
