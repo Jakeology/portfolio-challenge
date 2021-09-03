@@ -240,12 +240,33 @@ footer h4 {
     font-size: 22px;
   }
 
+  .about-me-primary {
+    width: 77%;
+  }
+
   .main-card-bio {
     width: 77%;
   }
 
   .secondary-cards {
     width: 74%;
+  }
+
+
+  .about-me img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+
+  .about-me-bio {
+    width: 100%;
+    text-align: center;
+  }
+
+  .about-me-primary {
+    width: 85%;
   }
   
 }
@@ -288,6 +309,10 @@ footer h4 {
 
   .main-card-bio {
     width: 16.5em;
+  }
+
+  .contact-me {
+    width: 60%;
   }
 
 }
