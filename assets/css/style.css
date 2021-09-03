@@ -240,10 +240,6 @@ footer h4 {
     font-size: 22px;
   }
 
-  .about-me-primary {
-    width: 77%;
-  }
-
   .main-card-bio {
     width: 77%;
   }
@@ -252,6 +248,17 @@ footer h4 {
     width: 74%;
   }
 
+  .primary-section-title {
+    width: 73%;
+  }
+
+  .secondary-section-title {
+    width: 73%;
+  }
+
+  .about-me-primary {
+    width: 77%;
+  }
 
   .about-me img {
     display: block;
