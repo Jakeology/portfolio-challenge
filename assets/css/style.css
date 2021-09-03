@@ -56,9 +56,16 @@ header nav ul li a {
   color: var(--white);
 }
 
+header nav ul li a:hover {
+  background: var(--white);
+  color: var(--darkblue);
+  border-radius: 10px;
+  text-shadow: none;
+}
+
 header h1 {
   font-size: 36px;
-  font-weight: lighter;
+  font-weight: bolder;
 }
 
 /* Footer */
@@ -273,7 +280,7 @@ footer h4 {
   }
 
   .about-me-primary {
-    width: 85%;
+    width: 80%;
   }
   
 }
