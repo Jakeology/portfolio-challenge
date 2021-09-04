@@ -8,7 +8,7 @@ A portfolio website to show the recent work done by Jacob Bartoletta
 * CSS
 
 ## Website
-https://jakeology.github.io/horiseon-dev/
+https://portfolio.jakeology.io/
 
 ## Contribution
 Made by the one and only Jacob B
