@@ -8,7 +8,7 @@ A portfolio website to show the recent work done by Jacob Bartoletta
 * CSS
 
 ## Website
-https://portfolio.jakeology.io/
+https://jakeology.github.io/portfolio-challenge/
 
 ## Screenshot
 <img width="1394" alt="Screenshot" src="https://user-images.githubusercontent.com/48842814/132094263-96ec2598-2b0f-49dc-bb69-3ae27de89ef1.png">
