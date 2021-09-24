@@ -9,9 +9,15 @@
   font-family: "Raleway", Sans-serif;
 }
 
+/* Global Links */
 a {
   text-decoration: none;
   color: var(--white);
+}
+
+html, body {
+  min-height: 100% !important;
+  height: 100%;
 }
 
 :root {
@@ -37,10 +43,12 @@ header {
   z-index: 9999;
 }
 
+/* Navigation Container */
 header nav {
   margin: 7px 0;
 }
 
+/* Navigation unordered list */
 header nav ul {
   align-items: center;
   display: flex;
@@ -49,6 +57,7 @@ header nav ul {
   justify-content: space-between;
 }
 
+/* Navigation Links */
 header nav ul li a {
   padding: 10px 15px;
   font-weight: lighter;
@@ -57,7 +66,7 @@ header nav ul li a {
   color: var(--white);
 }
 
-/* Navigation hover */
+/* Navigation links hover */
 header nav ul li a:hover {
   background: var(--white);
   color: var(--darkblue);
@@ -65,6 +74,7 @@ header nav ul li a:hover {
   text-shadow: none;
 }
 
+/* Header Title */
 header h1 {
   font-size: 36px;
   font-weight: bolder;
@@ -80,6 +90,7 @@ footer {
   flex-wrap: wrap;
 }
 
+/* Footer Text */
 footer h4 {
   font-size: 18px;
 }
@@ -100,7 +111,7 @@ footer h4 {
   flex-wrap: wrap;
   display: flex;
   align-items: flex-start;
-  height: 500px;
+  height: 45%;
 }
 
 /* Primary section title - Sections that use 'primary-section-title': 'About Me', 'Contact Me' */
@@ -136,11 +147,13 @@ footer h4 {
   justify-content: space-around;
 }
 
+/* Main container for 'About Me' section */
 .about-me {
   margin: 25px;
   flex: 1;
 }
 
+/* About me image (Best looking guy out there) */
 .about-me img {
   display: flex;
   flex-wrap: wrap;
@@ -151,18 +164,21 @@ footer h4 {
   border: solid 2px var(--darkblue);
 }
 
+/* About me name */
 .about-me-bio h3 {
   font-size: 28px;
   margin: 20px;
 }
 
-.about-me-bio p {
-  font-size: 17px;
-}
-
+/* About me bio container */
 .about-me-bio {
   width: 100%;
   text-align: center;
+}
+
+/* About me paragraph */
+.about-me-bio p {
+  font-size: 17px;
 }
 
 /* Portfolio Section */
@@ -172,21 +188,25 @@ footer h4 {
   padding-bottom: 50px;
 }
 
+/* Portfolio images */
 .portfolio-card img {
   border-radius: 10px;
   width: 100%;
   opacity: 0.9;
 }
 
+/* Portfolio image hover */
 .portfolio-card img:hover{
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
   opacity: 1;
 }
 
+/* Main portfolio card */
 .main-card {
   width: 100%;
 }
 
+/* Main portfolio card bio */
 .main-card-bio {
   width: 70em;
   text-align: center;
@@ -201,11 +221,13 @@ footer h4 {
   padding-bottom: 5px;
 }
 
+/* Main portfolio card text */
 .main-card-bio p {
   width: 100%;
   margin: 2px;
 }
 
+/* Secondary portfolio cards */
 .secondary-cards {
   width: 100%;
   display: flex;
@@ -214,6 +236,7 @@ footer h4 {
   margin: 0 auto;
 }
 
+/* Secondary portfolio card bio */
 .secondary-card-bio {
   width: 16.5em;
   border-radius: 10px;
@@ -224,7 +247,7 @@ footer h4 {
   padding-bottom: 5px;
 }
 
-/* Contact Me Section */
+/* Contact Me section */
 .contact-me {
   width: 100%;
   display: flex;
@@ -234,6 +257,7 @@ footer h4 {
   margin-bottom: 50px;
 }
 
+/* Contact Me buttons */
 .contact-me-btn {
   padding: 15px;
   margin: 1em;
@@ -242,6 +266,7 @@ footer h4 {
   color: var(--white);
 }
 
+/* Contact Me button text */
 .contact-me-btn h4 {
   text-align: center;
   font-size: 28px;
@@ -315,6 +340,10 @@ footer h4 {
   .secondary-cards {
     width: 80%;
   }
+
+  .hero {
+    height: 30%;
+  }
 }
 
 /* Media query to resize contents at 709px */
@@ -330,12 +359,21 @@ footer h4 {
   .contact-me {
     width: 60%;
   }
+
+  .hero {
+    height: 15%;
+  }
+
 }
 
 /* Media query to resize contents at 575px */
 @media screen and (max-width: 575px) {
   footer h4 {
     font-size: 14px;
+  }
+
+  .hero {
+    height: 0%;
   }
 }
 
